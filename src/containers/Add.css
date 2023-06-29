@@ -1,0 +1,38 @@
+.form__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    width: 200vw;
+    max-width: 550px;
+    margin: 2rem auto 5rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+.form__input {
+    width: 100%;
+    border: none;
+    border-radius: 0.1rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.form__button {
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+
