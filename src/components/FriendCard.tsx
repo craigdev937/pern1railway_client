@@ -1,5 +1,6 @@
 import React from "react";
 import "./FriendCard.css";
+import { Link } from "react-router-dom";
 import { IFriend } from "../models/Interfaces";
 
 type FRI = {
@@ -23,6 +24,12 @@ export const FriendCard = ({ friend }: FRI) => {
                     <h3>{friend.first} {friend.last}</h3>
                     <p>Age: {friend.age}</p>
                     <p>Info: {friend.info}</p>
+                </div>
+                <div>
+                    <Link 
+                        to={`/edit/${friend.id}`}
+                        >Update
+                    </Link>
                 </div>
             </section>
         </React.Fragment>
